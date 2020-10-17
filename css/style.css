@@ -9995,9 +9995,9 @@ html, body {
 }
 
 .counter-wrapper {
-  padding: 60px 0px;
+  margin: 60px 0px;
 }
-.counter-wrapper .icon {
+.counter-wrapper .item .icon {
   content: "";
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
@@ -10006,15 +10006,15 @@ html, body {
   display: inline-block;
   margin-right: 24px;
 }
-.counter-wrapper .counter {
+.counter-wrapper .item .counter {
   display: inline-block;
 }
-.counter-wrapper .counter .number {
+.counter-wrapper .item .counter .number {
   font-size: 29px;
   line-height: 29px;
   font-weight: 500;
 }
-.counter-wrapper .counter .number-label {
+.counter-wrapper .item .counter .number-label {
   font-size: 14px;
   text-transform: uppercase;
 }
