@@ -1,0 +1,99 @@
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+
+.btn-yellow {
+  background-color: #ffe718;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 37px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #372f00;
+  transition: all 0.3s ease;
+
+  &:hover
+  {
+    background-color: rgba(#ffe718, 0.6);
+    color: #000;
+  }
+}
+
+
+.counter-wrapper
+{
+ padding: 60px 0px;
+  .icon
+  {
+    content: '';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: #b3b7ba;
+    font-size: 2rem;
+    display: inline-block;
+    margin-right:24px;
+  }
+
+  .counter
+  {
+    display: inline-block;
+
+    .number
+    {
+      font-size: 29px;
+      line-height: 29px;
+      font-weight: 500;
+    }
+
+    .number-label
+    {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+
+
+}
+
+
+
+.info-wrapper {
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 74px 20px;
+
+  .item {
+    .image {
+      margin-bottom: 48px;
+    }
+
+    .details {
+      h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 24px;
+          height: 3px;
+          background-color: #ffe718;
+          position: absolute;
+          bottom: -20px;
+          left: 0;
+        }
+      }
+
+      p {
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
