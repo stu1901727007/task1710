@@ -21,4 +21,5 @@ mix
     ], 'js/main.js')
     .options({
         processCssUrls: false
-    });
+    })
+    .sourceMaps();
